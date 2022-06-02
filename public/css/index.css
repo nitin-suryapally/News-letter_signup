@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to right top, #45144b, #7c1655, #af2251, #d74240, #f06f22);
+    font-family: "montserrat";
+}
+
+.outer-section {
+    padding: 15% 15% 30% 15%;
+}
+
+.left {
+    background-color: #7c1655;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.left-col {
+    padding: 40px;
+    font-family: "montserat";
+    font-size: 3rem;
+}
+
+.right {
+    background-color: #d74240;
+    border-radius: 0px 10px 10px 0px;
+}
+
+label {
+    margin: 5px auto;
+    padding-right: 120px;
+}
+
+.button {
+    margin: 20px auto;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    background-color: #d74240;
+}
+
+input:focus{
+    border: none;
+    border-bottom: 2px solid;
+    transition: 0.5s;
+    outline: none;
+}
+
